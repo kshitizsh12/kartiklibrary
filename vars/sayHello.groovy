@@ -3,7 +3,6 @@ def call(String name = 'human') {
     // Scripted Pipeline
      echo "${env.BRANCH_NAME}"
      echo "${env.BUILD_NUMBER}"
-    
-   
     echo "Hello, ${name}."
+    sh "mvn -version"
 }
