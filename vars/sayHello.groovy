@@ -4,5 +4,5 @@ def call(String name = 'human') {
      echo "${env.BRANCH_NAME}"
      echo "${env.BUILD_NUMBER}"
     echo "Hello, ${name}."
-    new Print().name()
+    new Print().hello()
 }
