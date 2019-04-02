@@ -5,6 +5,4 @@ def call(String name = 'human') {
      echo "${env.BRANCH_NAME}"
      echo "${env.BUILD_NUMBER}"
     echo "Hello, ${name}."
-    World k= new World(this)
-    k.hello()
 }
