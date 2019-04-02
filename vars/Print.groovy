@@ -2,9 +2,9 @@
 import org.apache.commons.lang3.StringUtils
 
 
-class World {
+public class World{
 
- def hello(){
+ static def hello(){
  println "my name is kartik sharma"
  }
 }
