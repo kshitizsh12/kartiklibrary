@@ -1,6 +1,9 @@
+#!/usr/bin/env groovy
+
+
 class Print{
 
-name(){
-print("my name is kartik sharma");
-}
+ def name(){
+ print "my name is kartik sharma"
+ }
 }
