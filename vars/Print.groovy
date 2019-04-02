@@ -2,9 +2,9 @@
 import org.apache.commons.lang3.StringUtils
 
 
-class Print{
+class World {
 
  def hello(){
- print "my name is kartik sharma"
+ println "my name is kartik sharma"
  }
 }
