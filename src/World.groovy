@@ -1,5 +1,5 @@
 class World {
    def String hello(){
-       return "Loading from class level."
+       return "kartik calling from class method"
       }
 }
