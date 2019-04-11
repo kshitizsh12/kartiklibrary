@@ -1,8 +1,4 @@
-import java.io.Serializable
-
-class World implements Serializable{
-   
-   
+class World {
    def String hello(){
        return "Loading from class level."
       }
