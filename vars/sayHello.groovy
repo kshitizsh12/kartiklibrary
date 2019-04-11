@@ -6,8 +6,6 @@ def call(String name = 'human') {
      echo "${env.BRANCH_NAME}"
      echo "${env.BUILD_NUMBER}"
     echo "Hello, ${name}."
-        World p= new World()
-         def u=p.hello()
-    echo"${u}"
+       
     
 }
