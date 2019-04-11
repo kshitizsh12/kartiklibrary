@@ -7,5 +7,6 @@ class Shell implements Serializable {
     steps.sh "df -h"
     steps.sh "mvn -version"
     steps.sh "mvn clean package"
+    
   }
 }
