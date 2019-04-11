@@ -1,3 +1,4 @@
+#!/usr/bin/groovy
 import scr.World
 
 def call(String name = 'human') {
