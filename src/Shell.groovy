@@ -5,5 +5,6 @@ class Shell implements Serializable {
   Shell(steps) {this.steps = steps}
   def cmmddd() {
     steps.sh "df -h"
+    steps.sh "mvn -version"
   }
 }
