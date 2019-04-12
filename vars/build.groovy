@@ -4,6 +4,6 @@ import scr.Shell.*
 
 def call(){
     def h= new Shell(this)
-    h.mvn 'package'
+    h.mvn 'clean'
     
  }
