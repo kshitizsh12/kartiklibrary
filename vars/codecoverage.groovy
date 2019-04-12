@@ -1,12 +1,13 @@
 #!/usr/bin/groovy
-
+import scr.Shell.*
 def call(){
 
 sh '''
   echo "integrated sonarQube"
    '''
+    def h= new Shell(this)
   withSonarQubeEnv('sonarqube'){
-                 sh 'mvn sonar:sonar' 
+                 h.mvn 'sonar:sonar'
                 echo " sonarqube1 "
                 waitForQualityGate abortPipeline: true
               
