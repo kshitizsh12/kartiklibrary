@@ -2,10 +2,10 @@
 
 
 def call() {
+ def h= new Shell(this)
  sh '''
-     echo "testing junit plugin"
-     mvn test
-     '''
+     h.mvn 'test'
+    '''
  junit 'target/surefire-reports/*.xml'
    
 }
