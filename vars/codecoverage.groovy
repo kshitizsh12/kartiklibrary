@@ -10,7 +10,7 @@ sh '''
                  h.mvn 'sonar:sonar'
                 echo " sonarqube1 "
                 waitForQualityGate abortPipeline: true
-              
+                echo " quality gate pass response"
              }
   
    
