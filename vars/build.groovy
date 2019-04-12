@@ -1,7 +1,9 @@
 #!/usr/bin/groovy
 
+import scr.Shell.*
+
 def call(){
-    sh '''
-    mvn -B -DskipTests clean package
-    '''
+    def h= new Shell(this)
+    h.mvn 'package'
+    
  }
